@@ -1,0 +1,9 @@
+x <- seq(-1,20,.1) 
+
+pnorm(x, mean = 2, sd=0.2)
+
+png(file="pnorm.png")
+
+plot(x,pnorm(x))
+
+dev.off()
